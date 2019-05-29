@@ -1,0 +1,17 @@
+*******************IMPORTANT COMMANDS****************************
+PWD---->  print working directory-- used to see on which directory we are in
+ls ----> to list the files
+|wc  -l ---> to count the number of items
+git init --->to initiate git
+git add file1 ----> this add file1 to git
+git commit ---> to commit or save the changes to git
+git status ---> This shows how manys are out of sync and how many are not
+git diff -----> this tells the difference between previous and latest
+git log  -----> this gives the hash and logs of the info regarding the commits we have done so far
+git log --oneline  ---> this list down all the logs like a list
+git log --oneline |grep searchtext  ---> this is a kind of filter which filters the logs based on the searchtext
+git log --oneline |wc -l ---> this tells about the count of the content. This command tells how many commits we have done so far
+touch file ---> to create a new file
+vim file ----> to edit a file
+cat file ---> to view the file
+
