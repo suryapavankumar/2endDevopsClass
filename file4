@@ -16,4 +16,8 @@ vim file ----> to edit a file
 cat file ---> to view the file
 .gitignore ---> this is used to hide or keep out of track of git.If you dont want a certain file to be not tracked by GIt then we can add that file in the .gitignore file. So that it wont sync or show in the git status.
 git show xxxx  ---> its just for reviewing the changes happened to a particular commit. XXXX refers to the first 4 characters of hash of commit
-
+git clone website ---> this is to pull the information from the github portal. You need to pull the website from the github site
+git push origin master ---> this is to push the data from local to portal
+git pull  ---> this is pull the latest changes
+git checkout -b XXXXX  -----> to create a new branch.. XXXX refers to the new branch name
+git checkout XXXXX   ----> to switch to a different branch
