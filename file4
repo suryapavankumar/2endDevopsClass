@@ -15,4 +15,5 @@ touch file ---> to create a new file
 vim file ----> to edit a file
 cat file ---> to view the file
 .gitignore ---> this is used to hide or keep out of track of git.If you dont want a certain file to be not tracked by GIt then we can add that file in the .gitignore file. So that it wont sync or show in the git status.
+git show xxxx  ---> its just for reviewing the changes happened to a particular commit. XXXX refers to the first 4 characters of hash of commit
 
