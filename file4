@@ -16,6 +16,7 @@ vim file ----> to edit a file
 cat file ---> to view the file
 .gitignore ---> this is used to hide or keep out of track of git.If you dont want a certain file to be not tracked by GIt then we can add that file in the .gitignore file. So that it wont sync or show in the git status.
 git show xxxx  ---> its just for reviewing the changes happened to a particular commit. XXXX refers to the first 4 characters of hash of commit
+<<<<<<< HEAD
 git clone website ---> this is to pull the information from the github portal. You need to pull the website from the github site
 git push origin master ---> this is to push the data from local to portal
 git pull  ---> this is pull the latest changes
@@ -25,3 +26,5 @@ git merge XXXX   ------> to merge with another branch. XXXX represents the branc
 git revert XXXX    ----> reverts to XXXX commit by creating an additional commit
 git reset XXXX     ----> resets to the respective commit log clearing off all the before commits of selected
 
+This line should show up after the merging the Deve and Master braches
+Line1
