@@ -21,3 +21,7 @@ git push origin master ---> this is to push the data from local to portal
 git pull  ---> this is pull the latest changes
 git checkout -b XXXXX  -----> to create a new branch.. XXXX refers to the new branch name
 git checkout XXXXX   ----> to switch to a different branch
+git merge XXXX   ------> to merge with another branch. XXXX represents the branch name. Merge acts like Union
+git revert XXXX    ----> reverts to XXXX commit by creating an additional commit
+git reset XXXX     ----> resets to the respective commit log clearing off all the before commits of selected
+
